@@ -1,19 +1,20 @@
 homebrew_packages:
-  - zsh
-  - nvm
+  - ffmpeg
   - git
-  - zsh-completions
+  - gpg
   - jq
   - nginx
+  - nvm
   - rsync
   - sqlite
   - wget
-  - ffmpeg
-  - gpg
-  - gpg2
+  - zsh
+  - zsh-completions
 
 homebrew_cask_packages:
   - docker
   - iterm2
   - google-chrome
   - sublime-text
+  - jetbrains-toolbox
+
