@@ -1,0 +1,18 @@
+[user]
+	name = Tomislav Pesut
+	email = tomca32@gmail.com
+[core]
+	pager = less -F -X
+	excludesfile = /Users/tpesut/.gitignore_global
+[alias]
+	co = checkout
+	br = branch
+  d = diff
+	ci = commit
+	st = status
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	pr = pull --rebase
+[alist]
+	pr = pull --rebase
+[push]
+	default = simple
