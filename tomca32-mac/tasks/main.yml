@@ -28,4 +28,3 @@
 
 - name: Installs that don't require Homebrew
   import_tasks: non_brew_installs.yml
-
