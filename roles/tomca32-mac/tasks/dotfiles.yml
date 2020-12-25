@@ -1,0 +1,15 @@
+- name: Delete existing config files
+  file:
+    path: '{{ item }}'
+    state: absent
+  loop:
+  - ~/.zshrc
+
+- name: dotfiles links
+  file:
+    src: '{{ ansible_env.PWD }}/roles/tomca32-mac/files/dotfiles/{{ item }}'
+    path: '~/.{{ item }}'
+    state: link
+  loop:
+  - gitconfig
+  - zshrc

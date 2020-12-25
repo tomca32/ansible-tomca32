@@ -1,0 +1,33 @@
+# - name: Update homebrew
+#   community.general.homebrew:
+#     update_homebrew: yes
+#     upgrade_all: yes
+#   tags:
+#   - brew
+
+# - name: Install homebrew packages
+#   community.general.homebrew:
+#     name: '{{ item }}'
+#     state: latest
+#   loop: '{{ homebrew_packages }}'
+#   tags:
+#   - brew
+
+# - name: Install homebrew cask packages
+#   command: brew install --cask {{ item }}
+#   loop: '{{ homebrew_cask_packages }}'
+#   tags:
+#   - brew
+
+# - name: homebrew cleanup
+#   command: brew cleanup
+
+# - name: Change Shell to zsh
+#   shell: chsh -s $(which zsh)
+#   ignore_errors: yes
+
+- name: Installs that don't require Homebrew
+  import_tasks: non_brew_installs.yml
+
+- name: Configure dotfiles
+  import_tasks: dotfiles.yml

@@ -1,21 +1,29 @@
 homebrew_packages:
+  - dust
   - ffmpeg
   - git
   - gpg
+  - gradle
+  - imagemagick
   - jq
   - nginx
   - nvm
   - postgres
+  - pulumi
   - rsync
   - sqlite
+  - terraform
+  - tldr
   - wget
+  - yarn
+  - youtube-dl
   - zsh
   - zsh-completions
 
 homebrew_cask_packages:
   - docker
   - iterm2
+  - jetbrains-toolbox
+  - firefox
   - google-chrome
   - sublime-text
-  - jetbrains-toolbox
-

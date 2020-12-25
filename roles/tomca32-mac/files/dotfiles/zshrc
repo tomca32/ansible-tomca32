@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/tpesut/.oh-my-zsh
+export ZSH=/Users/tomislavpesut/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -53,8 +53,7 @@ plugins=(git)
 
 # User configuration
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/tpesut/bin"
-export JAVA_HOME="$(/usr/libexec/java_home -v 1.8)"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/tomislavpesut/bin"
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -89,19 +88,13 @@ alias dk="docker"
 alias ip="ipconfig getifaddr en0"
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-export PATH="$PATH:/usr/local/Cellar/node/6.3.0/libexec/npm/bin"
-
-# Use custom inputrc
-export INPUTRC=~/.inputrc
 
 # Android debugging
 export ANDROID_HVPROTO=ddm
 
-export PATH=/usr/local/opt/python/libexec/bin:$PATH
 export PATH=$HOME/.cargo/bin:$PATH
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && . "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-export PATH="/usr/local/opt/postgresql@9.6/bin:$PATH"
 
 set +H
