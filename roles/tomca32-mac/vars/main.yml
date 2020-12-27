@@ -1,4 +1,5 @@
 homebrew_packages:
+  - awscli
   - dust
   - ffmpeg
   - git
