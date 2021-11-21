@@ -4,6 +4,7 @@
     state: absent
   loop:
   - ~/.zshrc
+  - '~/Library/Application Support/Code/User/settings.json'
 
 - name: dotfiles links
   file:
@@ -13,3 +14,9 @@
   loop:
   - gitconfig
   - zshrc
+
+- name: Link VS Code Settings
+  file:
+    src: '{{ ansible_env.PWD }}/roles/tomca32-mac/files/dotfiles/vscode_settings.json'
+    path: '~/Library/Application Support/Code/User/settings.json'
+    state: link

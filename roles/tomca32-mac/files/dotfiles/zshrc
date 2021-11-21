@@ -53,7 +53,7 @@ plugins=(git)
 
 # User configuration
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/tomislavpesut/bin"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/tomislavpesut/bin:/opt/homebrew/bin"
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -68,9 +68,6 @@ source $ZSH/oh-my-zsh.sh
 # else
 #   export EDITOR='mvim'
 # fi
-
-# Compilation flags
-# export ARCHFLAGS="-arch x86_64"
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
@@ -87,9 +84,8 @@ alias gl="g lg"
 alias dk="docker"
 alias ip="ipconfig getifaddr en0"
 alias intel="arch -x86_64"
-export PATH="\$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin" # Add VS Code to Path
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin" # Add VS Code to Path
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-
 # Android debugging
 export ANDROID_HVPROTO=ddm
 

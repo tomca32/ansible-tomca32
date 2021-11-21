@@ -1,0 +1,48 @@
+{
+    "editor.fontSize": 14,
+    "editor.rulers": [150],
+    "editor.tabSize": 2,
+    "editor.cursorStyle": "block",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "files.trimTrailingWhitespace": true,
+    "workbench.iconTheme": "vscode-icons",
+    "codemetrics.basics.CodeLensHiddenUnder": 5,
+    "csharp.format.enable": false,
+    "workbench.colorTheme": "Darcula",
+    "codemetrics.basics.ComplexityLevelExtremeDescription": "Most fail, this one has.",
+    "codemetrics.basics.ComplexityLevelHighDescription": "This one has failed ...",
+    "codemetrics.basics.ComplexityLevelNormalDescription": "Starting to fail.",
+    "codemetrics.basics.ComplexityLevelLowDescription": "Readable...",
+    "codemetrics.basics.ComplexityLevelNormal": 8,
+    "codemetrics.basics.ComplexityLevelHigh": 12,
+    "material-icon-theme.showUpdateMessage": false,
+    "vsicons.dontShowNewVersionMessage": true,
+    "telemetry.enableTelemetry": false,
+    "npm.enableScriptExplorer": true,
+    "workbench.colorCustomizations": {
+        "editorIndentGuide.activeBackground": "#20b0f3"
+    },
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "gitlens.historyExplorer.enabled": true,
+    "auto-close-tag.SublimeText3Mode": true,
+    "auto-close-tag.enableAutoCloseSelfClosingTag": true,
+    "todohighlight.isCaseSensitive": true,
+    "todohighlight.keywords": [
+        "REVIEW:",
+        {
+            "text": "DEPRECATED:",
+            "color": "white",
+            "backgroundColor": "red",
+            "overviewRulerColor": "grey"
+        },
+        {
+            "text": "STUB:",
+            "color": "#000",
+            "backgroundColor": "#7EC0EE"
+        }
+    ],
+    "materialTheme.fixIconsRunning": false
+}
