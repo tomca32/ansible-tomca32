@@ -28,8 +28,8 @@
   register: which_zsh
 
 - name: Save Zsh path to variable
-  set_fact:
-    zsh_path={{ which_zsh.stdout }}
+  ansible.builtin.set_fact:
+    zsh_path: {{ which_zsh.stdout }}
 
 - name: Add Zsh to /etc/shells
   become: yes
@@ -39,11 +39,15 @@
     line: '{{ zsh_path }}'
 
 - name: Change Shell to zsh
-  shell: chsh -s $(which zsh)
+  shell: chsh -s $(which zsh) $(whoami)
 
 - name: Installs that don't require Homebrew
   import_tasks: non_brew_installs.yml
 
 - name: Configure dotfiles
   import_tasks: dotfiles.yml
+
+- name: Install VS Code Extensions
+  shell: code --install-extension {{ item }}
+  loop: '{{ visual_studio_code_extensions }}'
 ...
