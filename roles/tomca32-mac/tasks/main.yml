@@ -1,53 +1,13 @@
 ---
-- name: Update homebrew
-  community.general.homebrew:
-    update_homebrew: yes
-    upgrade_all: yes
-  tags:
-  - brew
+- name: Homebrew Installs
+  ansible.builtin.import_tasks: brew_installs.yml
 
-- name: Install homebrew packages
-  community.general.homebrew:
-    name: '{{ item }}'
-    state: latest
-  loop: '{{ homebrew_packages }}'
-  tags:
-  - brew
-
-- name: Install homebrew cask packages
-  command: brew install --cask {{ item }}
-  loop: '{{ homebrew_cask_packages }}'
-  tags:
-  - brew
-
-- name: Homebrew cleanup
-  command: brew cleanup
-
-- name: Get Zsh Path
-  shell: which zsh
-  register: which_zsh
-
-- name: Save Zsh path to variable
-  ansible.builtin.set_fact:
-    zsh_path: {{ which_zsh.stdout }}
-
-- name: Add Zsh to /etc/shells
-  become: yes
-  ansible.builtin.lineinfile:
-    path: /etc/shells
-    state: present
-    line: '{{ zsh_path }}'
-
-- name: Change Shell to zsh
-  shell: chsh -s $(which zsh) $(whoami)
+- name: Setup Shell
+  ansible.builtin.import_tasks: setup_shell.yml
 
 - name: Installs that don't require Homebrew
-  import_tasks: non_brew_installs.yml
+  ansible.builtin.import_tasks: non_brew_installs.yml
 
 - name: Configure dotfiles
-  import_tasks: dotfiles.yml
-
-- name: Install VS Code Extensions
-  shell: code --install-extension {{ item }}
-  loop: '{{ visual_studio_code_extensions }}'
+  ansible.builtin.import_tasks: dotfiles.yml
 ...

@@ -20,3 +20,7 @@
     src: '{{ ansible_env.PWD }}/roles/tomca32-mac/files/dotfiles/vscode_settings.json'
     path: '~/Library/Application Support/Code/User/settings.json'
     state: link
+
+- name: Install VS Code Extensions
+  shell: code --install-extension {{ item }}
+  loop: '{{ visual_studio_code_extensions }}'
