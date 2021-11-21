@@ -87,7 +87,7 @@ alias gl="g lg"
 alias dk="docker"
 alias ip="ipconfig getifaddr en0"
 alias intel="arch -x86_64"
-
+export PATH="\$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin" # Add VS Code to Path
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 # Android debugging

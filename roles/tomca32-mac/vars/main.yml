@@ -28,3 +28,4 @@ homebrew_cask_packages:
   - firefox
   - google-chrome
   - sublime-text
+  - visual-studio-code

@@ -4,7 +4,7 @@
 - name: Install RVM
   shell: curl -sSL https://get.rvm.io | bash -s stable
 
-- name: Install Oh My Zsh
+- name: Install Oh My Zsh (This fails if already installed)
   shell: sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
   ignore_errors: yes
 
