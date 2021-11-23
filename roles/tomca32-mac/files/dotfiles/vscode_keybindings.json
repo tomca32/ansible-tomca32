@@ -1,4 +1,5 @@
 [
   { "key": "cmd+[", "command": "workbench.action.navigateBack" },
   { "key": "cmd+]","command": "workbench.action.navigateForward" }
+  { "key": "cmd+b", "command": "editor.action.revealDefinition", "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor" }
 ]
