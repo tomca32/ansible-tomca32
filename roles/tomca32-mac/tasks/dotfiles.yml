@@ -5,6 +5,7 @@
   loop:
   - ~/.zshrc
   - '~/Library/Application Support/Code/User/settings.json'
+  - '~/Library/Application Support/Code/User/keybindings.json'
 
 - name: dotfiles links
   file:
@@ -19,6 +20,12 @@
   file:
     src: '{{ ansible_env.PWD }}/roles/tomca32-mac/files/dotfiles/vscode_settings.json'
     path: '~/Library/Application Support/Code/User/settings.json'
+    state: link
+
+- name: Link VS Code Keybindings
+  file:
+    src: '{{ ansible_env.PWD }}/roles/tomca32-mac/files/dotfiles/vscode_keybindings.json'
+    path: '~/Library/Application Support/Code/User/keybindings.json'
     state: link
 
 - name: Install VS Code Extensions
