@@ -9,7 +9,7 @@
     "workbench.iconTheme": "vscode-icons",
     "codemetrics.basics.CodeLensHiddenUnder": 5,
     "csharp.format.enable": false,
-    "workbench.colorTheme": "Darcula",
+    "workbench.colorTheme": "One Dark Pro",
     "codemetrics.basics.ComplexityLevelExtremeDescription": "Most fail, this one has.",
     "codemetrics.basics.ComplexityLevelHighDescription": "This one has failed ...",
     "codemetrics.basics.ComplexityLevelNormalDescription": "Starting to fail.",
