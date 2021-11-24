@@ -14,6 +14,7 @@ homebrew_packages:
   - postgres
   - pulumi
   - rsync
+  - rust
   - sqlite
   - terraform
   - tldr
@@ -41,4 +42,5 @@ visual_studio_code_extensions:
   - JasonAMartin.starter-bundle
   - rokoroku.vscode-theme-darcula
   - rust-lang.rust
+  - EdgardMessias.clipboard-manager
 ...
