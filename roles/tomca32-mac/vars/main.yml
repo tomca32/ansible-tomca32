@@ -22,6 +22,7 @@ homebrew_packages:
   - yarn
   - youtube-dl
   - fish
+  - starship
 
 homebrew_cask_packages:
   - docker
@@ -47,4 +48,5 @@ visual_studio_code_extensions:
   - fabiospampinato.vscode-todo-plus
   - connorshea.vscode-ruby-test-adapter
   - bmalehorn.vscode-fish
+  - be5invis.toml
 ...

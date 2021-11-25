@@ -1,0 +1,14 @@
+# Inserts a blank line between shell prompts
+add_newline = false
+
+[git_state]
+cherry_pick = "[🍒 PICKING](bold red)"
+format = '[\($state( $progress_current of $progress_total)\)]($style) '
+
+[git_status]
+ahead = "⇡${count}"
+behind = "⇣${count}"
+diverged = "⇕⇡${ahead_count}⇣${behind_count}"
+
+[line_break]
+disabled = true

@@ -20,6 +20,12 @@
   tags:
   - brew
 
+- name: Tap Homebrew fonts cask
+  command: brew tap homebrew/cask-fonts
+
+- name: Install Nerd Font
+  command: brew install --cask font-fira-code-nerd-font
+
 - name: Homebrew cleanup
   command: brew cleanup
 ...

@@ -1,42 +1,18 @@
-- name: Delete existing config files
-  file:
-    path: '{{ item }}'
-    state: absent
-  loop:
-  - ~/.zshrc
-  - ~/.config/fish/config.fish
-  - '~/Library/Application Support/Code/User/settings.json'
-  - '~/Library/Application Support/Code/User/keybindings.json'
-
-- name: dotfiles links in home
+---
+- name: dotfiles links in ~/
   file:
     src: '{{ ansible_env.PWD }}/roles/tomca32-mac/files/dotfiles/{{ item }}'
-    path: '~/.{{ item }}'
+    path: '~/{{ item }}'
     state: link
+    force: yes
   loop:
-  - gitconfig
-
-- name: dotfiles link for Fish shell
-  file:
-    src: '{{ ansible_env.PWD }}/roles/tomca32-mac/files/dotfiles/{{ item }}'
-    path: '~/.config/fish/{{ item }}'
-    state: link
-  loop:
-  - config.fish
-  - fish_variables
-
-- name: Link VS Code Settings
-  file:
-    src: '{{ ansible_env.PWD }}/roles/tomca32-mac/files/dotfiles/vscode_settings.json'
-    path: '~/Library/Application Support/Code/User/settings.json'
-    state: link
-
-- name: Link VS Code Keybindings
-  file:
-    src: '{{ ansible_env.PWD }}/roles/tomca32-mac/files/dotfiles/vscode_keybindings.json'
-    path: '~/Library/Application Support/Code/User/keybindings.json'
-    state: link
+  - .gitconfig
+  - .config/fish/config.fish
+  - .config/starship.toml
+  - Library/Application Support/Code/User/settings.json
+  - Library/Application Support/Code/User/keybindings.json
 
 - name: Install VS Code Extensions
   shell: code --install-extension {{ item }}
   loop: '{{ visual_studio_code_extensions }}'
+...

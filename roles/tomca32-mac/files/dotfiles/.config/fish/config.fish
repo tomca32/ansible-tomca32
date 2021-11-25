@@ -3,6 +3,7 @@ set PATH $PATH /Applications/Visual Studio Code.app/Contents/Resources/app/bin #
 set PATH $PATH /.cargo/bin:$PATH # Rust Package Manager - Cargo
 set PATH $PATH $HOME/.rvm/bin # Add RVM to PATH for scripting
 
+alias l="ls -al"
 alias g="git"
 alias gd="g diff"
 alias gds="g diff --staged"
@@ -16,3 +17,5 @@ export ANDROID_HVPROTO=ddm # Android debugging
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && . "$NVM_DIR/bash_completion" # This loads nvm bash_completion
+
+starship init fish | source
