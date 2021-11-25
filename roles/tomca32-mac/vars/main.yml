@@ -21,8 +21,7 @@ homebrew_packages:
   - wget
   - yarn
   - youtube-dl
-  - zsh
-  - zsh-completions
+  - fish
 
 homebrew_cask_packages:
   - docker
@@ -47,4 +46,5 @@ visual_studio_code_extensions:
   - yatki.vscode-surround
   - fabiospampinato.vscode-todo-plus
   - connorshea.vscode-ruby-test-adapter
+  - bmalehorn.vscode-fish
 ...

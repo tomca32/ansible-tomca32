@@ -4,17 +4,26 @@
     state: absent
   loop:
   - ~/.zshrc
+  - ~/.config/fish/config.fish
   - '~/Library/Application Support/Code/User/settings.json'
   - '~/Library/Application Support/Code/User/keybindings.json'
 
-- name: dotfiles links
+- name: dotfiles links in home
   file:
     src: '{{ ansible_env.PWD }}/roles/tomca32-mac/files/dotfiles/{{ item }}'
     path: '~/.{{ item }}'
     state: link
   loop:
   - gitconfig
-  - zshrc
+
+- name: dotfiles link for Fish shell
+  file:
+    src: '{{ ansible_env.PWD }}/roles/tomca32-mac/files/dotfiles/{{ item }}'
+    path: '~/.config/fish/{{ item }}'
+    state: link
+  loop:
+  - config.fish
+  - fish_variables
 
 - name: Link VS Code Settings
   file:
