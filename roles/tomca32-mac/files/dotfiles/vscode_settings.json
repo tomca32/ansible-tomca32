@@ -44,5 +44,6 @@
             "backgroundColor": "#7EC0EE"
         }
     ],
-    "materialTheme.fixIconsRunning": false
+    "materialTheme.fixIconsRunning": false,
+    "redhat.telemetry.enabled": true
 }
