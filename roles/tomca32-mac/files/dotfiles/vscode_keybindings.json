@@ -1,5 +1,10 @@
 [
   { "key": "cmd+[", "command": "workbench.action.navigateBack" },
-  { "key": "cmd+]","command": "workbench.action.navigateForward" }
-  { "key": "cmd+b", "command": "editor.action.revealDefinition", "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor" }
+  { "key": "cmd+]", "command": "workbench.action.navigateForward" },
+  { "key": "cmd+b", "command": "editor.action.revealDefinition", "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor" },
+  { "key": "cmd+d", "command": "editor.action.addSelectionToNextFindMatch", "when": "editorFocus" },
+  { "key": "ctrl+cmd+g", "command": "editor.action.selectHighlights", "when": "editorFocus" },
+  { "key": "ctrl+shift+up", "command": "editor.action.smartSelect.expand", "when": "editorTextFocus" },
+  { "key": "ctrl+shift+down", "command": "editor.action.smartSelect.shrink", "when": "editorTextFocus" },
+  { "key": "cmd+backspace", "command": "editor.action.deleteLines", "when": "textInputFocus && !editorReadonly" }
 ]
