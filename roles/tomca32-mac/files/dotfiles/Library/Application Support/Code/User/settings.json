@@ -18,8 +18,6 @@
     "codemetrics.basics.ComplexityLevelHigh": 12,
     "material-icon-theme.showUpdateMessage": false,
     "vsicons.dontShowNewVersionMessage": true,
-    "telemetry.enableTelemetry": false,
-    "npm.enableScriptExplorer": true,
     "workbench.colorCustomizations": {
         "editorIndentGuide.activeBackground": "#20b0f3"
     },
@@ -45,5 +43,7 @@
         }
     ],
     "materialTheme.fixIconsRunning": false,
-    "redhat.telemetry.enabled": true
+    "redhat.telemetry.enabled": true,
+    "csharp.semanticHighlighting.enabled": true,
+    "omnisharp.organizeImportsOnFormat": true
 }

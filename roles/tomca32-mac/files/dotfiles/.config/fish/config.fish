@@ -2,6 +2,7 @@ set PATH /opt/homebrew/bin /usr/local/bin /usr/bin /bin /usr/sbin /sbin /Users/t
 set PATH $PATH /Applications/Visual Studio Code.app/Contents/Resources/app/bin # Add VS Code to Path
 set PATH $PATH /.cargo/bin:$PATH # Rust Package Manager - Cargo
 set PATH $PATH $HOME/.rvm/bin # Add RVM to PATH for scripting
+set PATH $PATH /Library/Frameworks/Mono.framework/Home/bin
 
 alias l="ls -al"
 alias g="git"

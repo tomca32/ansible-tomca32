@@ -32,6 +32,10 @@ homebrew_cask_packages:
   - google-chrome
   - sublime-text
   - visual-studio-code
+  - unity-hub
+  - dotnet-sdk
+  - sensiblesidebuttons
+  - shiftit
 
 visual_studio_code_extensions:
   - redhat.ansible
@@ -49,4 +53,8 @@ visual_studio_code_extensions:
   - connorshea.vscode-ruby-test-adapter
   - bmalehorn.vscode-fish
   - be5invis.toml
+  - ms-dotnettools.csharp
+  - Tobiah.unity-tools
+  - Unity.unity-debug
+  - kleber-swf.unity-code-snippets
 ...
