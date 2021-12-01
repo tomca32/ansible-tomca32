@@ -16,6 +16,7 @@
 
 - name: Install homebrew cask packages
   command: brew install --cask {{ item }}
+  ignore_errors: yes
   loop: '{{ homebrew_cask_packages }}'
   tags:
   - brew

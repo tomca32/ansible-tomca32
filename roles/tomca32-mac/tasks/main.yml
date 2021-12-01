@@ -10,4 +10,3 @@
 
 - name: Configure dotfiles
   ansible.builtin.import_tasks: dotfiles.yml
-...

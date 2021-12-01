@@ -4,8 +4,5 @@
 - name: Install RVM
   shell: curl -sSL https://get.rvm.io | bash -s stable
 
-- name: Create nvm directory
-  file:
-    path: ~/.nvm
-    state: directory
-    mode: '0755'
+- name: Instal NVM Fish plugin
+  shell: fish --command "fisher install jorgebucaran/nvm.fish"

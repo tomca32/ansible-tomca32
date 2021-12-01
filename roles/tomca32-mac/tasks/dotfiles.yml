@@ -1,19 +1,28 @@
 ---
+- name: Create dotfiles directories
+  file:
+    path: "~/{{ item  }}"
+    state: directory
+    mode: 0755
+  loop:
+    - .config
+    - .config/fish
+    - .config/fish/functions
+
 - name: dotfiles links in ~/
   file:
-    src: '{{ ansible_env.PWD }}/roles/tomca32-mac/files/dotfiles/{{ item }}'
-    path: '~/{{ item }}'
+    src: "{{ ansible_env.PWD }}/roles/tomca32-mac/files/dotfiles/{{ item }}"
+    path: "~/{{ item }}"
     state: link
     force: yes
   loop:
-  - .gitconfig
-  - .config/fish/config.fish
-  - .config/fish/functions/rvm.fish
-  - .config/starship.toml
-  - Library/Application Support/Code/User/settings.json
-  - Library/Application Support/Code/User/keybindings.json
+    - .gitconfig
+    - .config/fish/config.fish
+    - .config/fish/functions/rvm.fish
+    - .config/starship.toml
+    - Library/Application Support/Code/User/settings.json
+    - Library/Application Support/Code/User/keybindings.json
 
 - name: Install VS Code Extensions
   shell: code --install-extension {{ item }}
-  loop: '{{ visual_studio_code_extensions }}'
-...
+  loop: "{{ visual_studio_code_extensions }}"

@@ -5,7 +5,7 @@
 
 - name: Save fish path to variable
   ansible.builtin.set_fact:
-    fish_path: '{{ which_fish.stdout }}'
+    fish_path: "{{ which_fish.stdout }}"
 
 - name: Add fish to /etc/shells
   become: yes
@@ -13,8 +13,10 @@
   ansible.builtin.lineinfile:
     path: /etc/shells
     state: present
-    line: '{{ fish_path }}'
+    line: "{{ fish_path }}"
 
 - name: Change Shell to fish
   ansible.builtin.shell: chsh -s $(which fish) $(whoami)
-...
+
+- name: Install Fisher
+  ansible.builtin.shell: fish --command "curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher"
