@@ -57,4 +57,5 @@ visual_studio_code_extensions:
   - Tobiah.unity-tools
   - Unity.unity-debug
   - kleber-swf.unity-code-snippets
+  - vscjava.vscode-java-pack
 ...
