@@ -10,6 +10,7 @@ alias gd="g diff"
 alias gds="g diff --staged"
 alias gl="g lg"
 alias dk="docker"
+alias dkc="docker-compose"
 alias ip="ipconfig getifaddr en1"
 alias intel="arch -x86_64"
 

@@ -45,5 +45,7 @@
     "materialTheme.fixIconsRunning": false,
     "redhat.telemetry.enabled": true,
     "csharp.semanticHighlighting.enabled": true,
-    "omnisharp.organizeImportsOnFormat": true
+    "omnisharp.organizeImportsOnFormat": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
 }
