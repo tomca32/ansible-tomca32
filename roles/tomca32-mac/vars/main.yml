@@ -45,7 +45,7 @@ visual_studio_code_extensions:
   - ms-vscode-remote.vscode-remote-extensionpack
   - JasonAMartin.starter-bundle
   - rokoroku.vscode-theme-darcula
-  - rust-lang.rust
+  - matklad.rust-analyzer
   - EdgardMessias.clipboard-manager
   - gazugafan.vscode-indent-on-paste
   - yatki.vscode-surround

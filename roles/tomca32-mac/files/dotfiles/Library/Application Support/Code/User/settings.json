@@ -3,8 +3,8 @@
     "editor.rulers": [150],
     "editor.tabSize": 2,
     "editor.cursorStyle": "block",
-    "editor.formatOnPaste": true,
-    "editor.formatOnSave": true,
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false,
     "files.trimTrailingWhitespace": true,
     "workbench.iconTheme": "vscode-icons",
     "codemetrics.basics.CodeLensHiddenUnder": 5,
@@ -47,5 +47,11 @@
     "csharp.semanticHighlighting.enabled": true,
     "omnisharp.organizeImportsOnFormat": true,
     "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+    "rust-analyzer.checkOnSave.command": "clippy",
+    "rust-analyzer.cargo.allFeatures": true,
+    "[rust]": {
+        "editor.defaultFormatter": "matklad.rust-analyzer"
+    },
+    "editor.formatOnType": false,
+    "files.autoSave": "afterDelay"
 }
