@@ -16,6 +16,6 @@ alias intel="arch -x86_64"
 
 export ANDROID_HVPROTO=ddm # Android debugging
 
-echo "rvm default" # Activate RVM
+echo "rvm default"1>/dev/null 2>&1 # Activate RVM
 
 starship init fish | source
