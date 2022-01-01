@@ -58,4 +58,5 @@ visual_studio_code_extensions:
   - Unity.unity-debug
   - kleber-swf.unity-code-snippets
   - vscjava.vscode-java-pack
+  - vadimcn.vscode-lldb
 ...
