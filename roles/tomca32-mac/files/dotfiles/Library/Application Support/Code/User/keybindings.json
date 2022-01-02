@@ -8,5 +8,6 @@
   { "key": "ctrl+shift+down", "command": "editor.action.smartSelect.shrink", "when": "editorTextFocus" },
   { "key": "cmd+backspace", "command": "editor.action.deleteLines", "when": "textInputFocus && !editorReadonly" },
   { "key": "cmd+shift+j", "command": "workbench.action.focusActiveEditorGroup" },
-  { "key": "cmd+shift+t", "command": "workbench.action.terminal.toggleTerminal" }
+  { "key": "cmd+shift+t", "command": "workbench.action.terminal.toggleTerminal" },
+  { "key": "ctrl+shift+r", "command": "rust-analyzer.run", "when": "editorTextFocus && editorLangId == 'rust'" },
 ]
