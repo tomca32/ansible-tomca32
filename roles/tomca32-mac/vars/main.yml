@@ -43,7 +43,6 @@ visual_studio_code_extensions:
   - dhoeric.ansible-vault
   - eamodio.gitlens
   - ms-vscode-remote.vscode-remote-extensionpack
-  - JasonAMartin.starter-bundle
   - rokoroku.vscode-theme-darcula
   - matklad.rust-analyzer
   - EdgardMessias.clipboard-manager
@@ -59,4 +58,26 @@ visual_studio_code_extensions:
   - kleber-swf.unity-code-snippets
   - vscjava.vscode-java-pack
   - vadimcn.vscode-lldb
+  - Tyriar.sort-lines
+  - EditorConfig.EditorConfig
+  - alefragnani.project-manager
+  - alefragnani.Bookmarks
+  - formulahendry.auto-close-tag
+  - formulahendry.auto-rename-tag
+  - esbenp.prettier-vscode
+  - wayou.vscode-todo-highlight
+  - naumovs.color-highlight
+  - tombonnike.vscode-status-bar-format-toggle
+  - vscode-icons-team.vscode-icons
+  - alexdima.copy-relative-path
+  - christian-kohler.path-intellisense
+  - ryu1kn.partial-diff
+  - zhuangtongfa.Material-theme
+  - ms-azuretools.vscode-docker
+  - donjayamanne.githistory
+  - wix.vscode-import-cost
+  - capaj.vscode-exports-autocomplete
+  - christian-kohler.npm-intellisense
+  - castwide.solargraph
+  - rebornix.Ruby
 ...
