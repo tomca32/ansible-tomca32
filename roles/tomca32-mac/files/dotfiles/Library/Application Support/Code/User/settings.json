@@ -53,5 +53,6 @@
         "editor.defaultFormatter": "matklad.rust-analyzer"
     },
     "editor.formatOnType": false,
-    "files.autoSave": "afterDelay"
+    "files.autoSave": "afterDelay",
+    "clipboard-manager.snippet.enabled": false
 }
