@@ -9,6 +9,8 @@ homebrew_packages:
   - gradle
   - imagemagick
   - jq
+  - libftdi
+  - libusb
   - nginx
   - nvm
   - postgres
