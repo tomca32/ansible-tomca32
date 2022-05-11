@@ -1,9 +1,11 @@
 ---
 homebrew_packages:
   - awscli
+  - bash
   - dust
   - ffmpeg
   - git
+  - git-lfs
   - gmp
   - gpg
   - gradle
@@ -25,6 +27,7 @@ homebrew_packages:
   - yarn
   - youtube-dl
   - fish
+  - shellcheck
   - starship
 
 homebrew_cask_packages:
@@ -36,8 +39,6 @@ homebrew_cask_packages:
   - google-chrome
   - sublime-text
   - visual-studio-code
-  - unity-hub
-  - dotnet-sdk
   - sensiblesidebuttons
   - shiftit
 
@@ -84,4 +85,5 @@ visual_studio_code_extensions:
   - christian-kohler.npm-intellisense
   - castwide.solargraph
   - rebornix.Ruby
+  - timonwong.shellcheck
 ...
