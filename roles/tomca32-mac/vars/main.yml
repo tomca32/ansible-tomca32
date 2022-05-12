@@ -87,4 +87,5 @@ visual_studio_code_extensions:
   - rebornix.Ruby
   - timonwong.shellcheck
   - ms-vscode-remote.vscode-remote-extensionpack
+  - yy0931.save-as-root
 ...
