@@ -1,7 +1,13 @@
 ---
+homebrew_taps:
+  - ArmMbed/homebrew-formulae
+
 homebrew_packages:
+  - asdf
+  - arm-none-eabi-gcc
   - awscli
   - bash
+  - coreutils
   - dust
   - ffmpeg
   - git

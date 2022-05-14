@@ -6,6 +6,12 @@
   tags:
   - brew
 
+- name: Homebrew Tap
+  command: brew tap {{ item }}
+  loop: '{{ homebrew_taps }}'
+  tags:
+  - brew
+
 - name: Install homebrew packages
   community.general.homebrew:
     name: '{{ item }}'
