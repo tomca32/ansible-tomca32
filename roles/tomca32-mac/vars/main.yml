@@ -47,6 +47,7 @@ homebrew_cask_packages:
   - visual-studio-code
   - sensiblesidebuttons
   - shiftit
+  - obsidian
 
 visual_studio_code_extensions:
   - redhat.ansible
@@ -64,9 +65,6 @@ visual_studio_code_extensions:
   - bmalehorn.vscode-fish
   - be5invis.toml
   - ms-dotnettools.csharp
-  - Tobiah.unity-tools
-  - Unity.unity-debug
-  - kleber-swf.unity-code-snippets
   - vscjava.vscode-java-pack
   - vadimcn.vscode-lldb
   - Tyriar.sort-lines
