@@ -37,6 +37,7 @@ homebrew_packages:
   - starship
 
 homebrew_cask_packages:
+  - alfred
   - dash
   - docker
   - iterm2
