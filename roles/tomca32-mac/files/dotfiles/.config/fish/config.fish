@@ -20,4 +20,4 @@ echo "rvm default"1>/dev/null 2>&1 # Activate RVM
 
 starship init fish | source
 
-source /opt/homebrew/opt/asdf/libexec/asdf.fish
+source "$(brew --prefix asdf)"/libexec/asdf.fish
