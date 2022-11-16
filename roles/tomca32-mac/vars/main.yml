@@ -22,7 +22,7 @@ homebrew_packages:
   - minicom
   - nginx
   - nvm
-  - postgres
+  - postgresql
   - pulumi
   - rsync
   - sqlite
@@ -92,4 +92,5 @@ visual_studio_code_extensions:
   - timonwong.shellcheck
   - ms-vscode-remote.vscode-remote-extensionpack
   - yy0931.save-as-root
+  - github.remotehub
 ...

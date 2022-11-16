@@ -4,5 +4,8 @@
 - name: Install RVM
   shell: curl -sSL https://get.rvm.io | bash -s stable
 
-- name: Instal NVM Fish plugin
+- name: Install NVM Fish plugin
   shell: fish --command "fisher install jorgebucaran/nvm.fish"
+
+- name: Install rustup
+  shell: curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
