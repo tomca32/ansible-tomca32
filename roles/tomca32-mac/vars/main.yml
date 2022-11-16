@@ -25,7 +25,6 @@ homebrew_packages:
   - postgres
   - pulumi
   - rsync
-  - rustup
   - sqlite
   - terraform
   - tldr
