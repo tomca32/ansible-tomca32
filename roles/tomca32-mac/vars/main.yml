@@ -1,10 +1,10 @@
 ---
 homebrew_taps:
   - ArmMbed/homebrew-formulae
+  - messense/macos-cross-toolchains
 
 homebrew_packages:
   - asdf
-  - arm-none-eabi-gcc
   - awscli
   - bash
   - coreutils
@@ -93,4 +93,5 @@ visual_studio_code_extensions:
   - ms-vscode-remote.vscode-remote-extensionpack
   - yy0931.save-as-root
   - github.remotehub
+  - deerawan.vscode-dash
 ...
