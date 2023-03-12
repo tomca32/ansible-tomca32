@@ -64,7 +64,6 @@ visual_studio_code_extensions:
   - connorshea.vscode-ruby-test-adapter
   - bmalehorn.vscode-fish
   - be5invis.toml
-  - ms-dotnettools.csharp
   - vscjava.vscode-java-pack
   - vadimcn.vscode-lldb
   - Tyriar.sort-lines
@@ -84,7 +83,6 @@ visual_studio_code_extensions:
   - zhuangtongfa.Material-theme
   - ms-azuretools.vscode-docker
   - donjayamanne.githistory
-  - wix.vscode-import-cost
   - capaj.vscode-exports-autocomplete
   - christian-kohler.npm-intellisense
   - castwide.solargraph
@@ -94,4 +92,6 @@ visual_studio_code_extensions:
   - yy0931.save-as-root
   - github.remotehub
   - deerawan.vscode-dash
+  - vscodevim.vim
+  - vintharas.learn-vim
 ...
