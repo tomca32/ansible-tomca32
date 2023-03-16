@@ -94,4 +94,6 @@ visual_studio_code_extensions:
   - deerawan.vscode-dash
   - vscodevim.vim
   - vintharas.learn-vim
+  - usernamehw.errorlens
+  - cliffordfajardo.highlight-line-vscode
 ...

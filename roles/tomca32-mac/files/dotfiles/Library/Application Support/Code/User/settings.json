@@ -55,5 +55,7 @@
     "editor.formatOnType": false,
     "files.autoSave": "afterDelay",
     "clipboard-manager.snippet.enabled": false,
-    "bracketPairColorizer.depreciation-notice": false
+    "bracketPairColorizer.depreciation-notice": false,
+    "vim.useSystemClipboard": true,
+    "editor.lineNumbers": "relative"
 }
