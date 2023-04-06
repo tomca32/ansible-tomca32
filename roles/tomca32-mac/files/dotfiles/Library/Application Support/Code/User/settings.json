@@ -19,7 +19,10 @@
     "material-icon-theme.showUpdateMessage": false,
     "vsicons.dontShowNewVersionMessage": true,
     "workbench.colorCustomizations": {
-        "editorIndentGuide.activeBackground": "#20b0f3"
+        "editorIndentGuide.activeBackground": "#20b0f3",
+        "statusBar.background": "#000000",
+        "statusBar.noFolderBackground": "#000000",
+        "statusBar.debuggingBackground": "#000000"
     },
     "gitlens.advanced.messages": {
         "suppressShowKeyBindingsNotice": true
@@ -57,5 +60,8 @@
     "clipboard-manager.snippet.enabled": false,
     "bracketPairColorizer.depreciation-notice": false,
     "vim.useSystemClipboard": true,
-    "editor.lineNumbers": "relative"
+    "editor.lineNumbers": "relative",
+    "vim.statusBarColors.insert": "#5f0000",
+    "vim.statusBarColors.normal": "#000000",
+    "vim.statusBarColorControl": true
 }
