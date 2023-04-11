@@ -22,7 +22,7 @@
 
 - name: Install homebrew cask packages
   command: brew install --cask {{ item }}
-  ignore_errors: yes
+  ignore_errors: true
   loop: '{{ homebrew_cask_packages }}'
   tags:
   - brew
@@ -31,7 +31,7 @@
   command: brew tap homebrew/cask-fonts
 
 - name: Install Nerd Font
-  command: brew install --cask font-fira-code-nerd-font
+  command: brew install --cask font-fira-code-nerd-font font-fira-mono-nerd-font
 
 - name: Homebrew cleanup
   command: brew cleanup

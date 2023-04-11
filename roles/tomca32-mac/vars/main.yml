@@ -15,6 +15,7 @@ homebrew_packages:
   - gmp
   - gpg
   - gradle
+  - helix
   - imagemagick
   - jq
   - libftdi
@@ -22,6 +23,7 @@ homebrew_packages:
   - minicom
   - nginx
   - nvm
+  - neovim
   - postgresql
   - pulumi
   - rsync
