@@ -8,7 +8,7 @@
     fish_path: "{{ which_fish.stdout }}"
 
 - name: Add fish to /etc/shells
-  become: yes
+  become: true
   become_user: root
   ansible.builtin.lineinfile:
     path: /etc/shells

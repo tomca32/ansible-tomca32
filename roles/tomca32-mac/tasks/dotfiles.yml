@@ -8,6 +8,7 @@
     - .config
     - .config/fish
     - .config/fish/functions
+    - .config/helix
 
 - name: dotfiles links in ~/
   file:
@@ -20,6 +21,8 @@
     - .config/fish/config.fish
     - .config/fish/functions/rvm.fish
     - .config/starship.toml
+    - .config/helix/languages.toml
+    - .config/helix/config.toml
     - Library/Application Support/Code/User/settings.json
     - Library/Application Support/Code/User/keybindings.json
 
