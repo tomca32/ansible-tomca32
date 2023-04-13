@@ -9,6 +9,7 @@
     - .config/fish
     - .config/fish/functions
     - .config/helix
+    - .config/zellij
 
 - name: dotfiles links in ~/
   file:
@@ -23,6 +24,7 @@
     - .config/starship.toml
     - .config/helix/languages.toml
     - .config/helix/config.toml
+    - .config/zellij/config.kdl
     - Library/Application Support/Code/User/settings.json
     - Library/Application Support/Code/User/keybindings.json
 
