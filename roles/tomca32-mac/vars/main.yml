@@ -37,6 +37,7 @@ homebrew_packages:
   - shellcheck
   - starship
   - zellij
+  - x86_64-unknown-linux-gnu
 
 homebrew_cask_packages:
   - alacritty
