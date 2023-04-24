@@ -11,6 +11,10 @@
     - .config/helix
     - .config/zellij
     - .config/alacritty
+    - .config/alacritty/themes
+
+- name: Clone Alacritty themes
+  shell: cd ~/.config/alacritty/themes; git init; git remote add origin https://github.com/alacritty/alacritty-theme; git pull origin master
 
 - name: dotfiles links in ~/
   file:
