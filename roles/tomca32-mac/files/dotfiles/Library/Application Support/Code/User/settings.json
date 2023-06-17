@@ -9,7 +9,7 @@
     "workbench.iconTheme": "vscode-icons",
     "codemetrics.basics.CodeLensHiddenUnder": 5,
     "csharp.format.enable": false,
-    "workbench.colorTheme": "One Dark Pro",
+    "workbench.colorTheme": "SynthWave '84",
     "codemetrics.basics.ComplexityLevelExtremeDescription": "Most fail, this one has.",
     "codemetrics.basics.ComplexityLevelHighDescription": "This one has failed ...",
     "codemetrics.basics.ComplexityLevelNormalDescription": "Starting to fail.",
@@ -63,5 +63,15 @@
     "editor.lineNumbers": "relative",
     "vim.statusBarColors.insert": "#5f0000",
     "vim.statusBarColors.normal": "#000000",
-    "vim.statusBarColorControl": true
+    "vim.statusBarColorControl": true,
+    "editor.inlineSuggest.enabled": true,
+    "vim.insertModeKeyBindings": [
+
+    ],
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    }
 }
