@@ -12,6 +12,10 @@
     - .config/zellij
     - .config/alacritty
     - .config/alacritty/themes
+    - .config/nvim
+    - .config/nvim/lua
+    - .config/nvim/lua/config
+    - .config/nvim/lua/plugins
 
 - name: Clone Alacritty themes
   shell: cd ~/.config/alacritty/themes; git init; git remote add origin https://github.com/alacritty/alacritty-theme; git pull origin master
@@ -31,6 +35,15 @@
     - .config/helix/config.toml
     - .config/zellij/config.kdl
     - .config/alacritty/alacritty.yml
+    - .config/nvim/lua/config/autocmds.lua
+    - .config/nvim/lua/config/keymaps.lua
+    - .config/nvim/lua/config/lazy.lua
+    - .config/nvim/lua/config/options.lua
+    - .config/nvim/lua/plugins/example.lua
+    - .config/nvim/init.lua
+    - .config/nvim/.neoconf.json
+    - .config/nvim/lazy-lock.json
+    - .config/nvim/stylua.toml
     - Library/Application Support/Code/User/settings.json
     - Library/Application Support/Code/User/keybindings.json
 

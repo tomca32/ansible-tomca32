@@ -20,9 +20,9 @@
     "vsicons.dontShowNewVersionMessage": true,
     "workbench.colorCustomizations": {
         "editorIndentGuide.activeBackground": "#20b0f3",
-        "statusBar.background": "#5f0000",
-        "statusBar.noFolderBackground": "#5f0000",
-        "statusBar.debuggingBackground": "#5f0000"
+        "statusBar.background": "#000000",
+        "statusBar.noFolderBackground": "#000000",
+        "statusBar.debuggingBackground": "#000000"
     },
     "gitlens.advanced.messages": {
         "suppressShowKeyBindingsNotice": true
