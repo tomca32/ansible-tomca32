@@ -42,6 +42,7 @@
     - .config/nvim/lua/plugins/example.lua
     - .config/nvim/lua/plugins/synth.lua
     - .config/nvim/lua/plugins/autosave.lua
+    - .config/nvim/lua/plugins/copilot.lua
     - .config/nvim/init.lua
     - .config/nvim/.neoconf.json
     - .config/nvim/lazy-lock.json
