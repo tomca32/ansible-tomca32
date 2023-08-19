@@ -40,6 +40,7 @@
     - .config/nvim/lua/config/lazy.lua
     - .config/nvim/lua/config/options.lua
     - .config/nvim/lua/plugins/example.lua
+    - .config/nvim/lua/plugins/synth.lua
     - .config/nvim/init.lua
     - .config/nvim/.neoconf.json
     - .config/nvim/lazy-lock.json
