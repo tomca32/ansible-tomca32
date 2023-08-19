@@ -1,6 +1,9 @@
 # Inserts a blank line between shell prompts
 add_newline = false
 
+[battery]
+disabled = true
+
 [git_state]
 cherry_pick = "[🍒 PICKING](bold red)"
 format = '[\($state( $progress_current of $progress_total)\)]($style) '
