@@ -25,6 +25,7 @@ homebrew_packages:
   - nginx
   - nvm
   - neovim
+  - node
   - postgresql
   - pulumi
   - rsync
