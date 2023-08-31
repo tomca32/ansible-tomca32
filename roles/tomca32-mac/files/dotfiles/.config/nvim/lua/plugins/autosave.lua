@@ -4,5 +4,4 @@ return {
     event = { "InsertLeave", "TextChanged" }, -- optional for lazy loading on trigger events
     opts = {}
   },
-  { "LazyVim/LazyVim" },
 }
