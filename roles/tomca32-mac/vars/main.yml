@@ -36,6 +36,7 @@ homebrew_packages:
   - yarn
   - youtube-dl
   - fish
+  - ranger
   - shellcheck
   - starship
   - zellij
@@ -48,6 +49,7 @@ homebrew_cask_packages:
   - docker
   - iterm2
   - jetbrains-toolbox
+  - kitty
   - firefox
   - google-chrome
   - sublime-text
