@@ -16,6 +16,7 @@
     - .config/nvim/lua
     - .config/nvim/lua/config
     - .config/nvim/lua/plugins
+    - .config/kitty
 
 - name: Clone Alacritty themes
   shell: cd ~/.config/alacritty/themes; git init; git remote add origin https://github.com/alacritty/alacritty-theme; git pull origin master
@@ -47,6 +48,8 @@
     - .config/nvim/.neoconf.json
     - .config/nvim/lazy-lock.json
     - .config/nvim/stylua.toml
+    - .config/kitty/current-theme.conf
+    - .config/kitty/kitty.conf
     - Library/Application Support/Code/User/settings.json
     - Library/Application Support/Code/User/keybindings.json
 
