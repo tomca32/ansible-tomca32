@@ -1,77 +1,75 @@
 {
-    "editor.fontSize": 14,
-    "editor.rulers": [150],
-    "editor.tabSize": 2,
-    "editor.cursorStyle": "block",
-    "editor.formatOnPaste": false,
-    "editor.formatOnSave": false,
-    "files.trimTrailingWhitespace": true,
-    "workbench.iconTheme": "vscode-icons",
-    "codemetrics.basics.CodeLensHiddenUnder": 5,
-    "csharp.format.enable": false,
-    "workbench.colorTheme": "SynthWave '84",
-    "codemetrics.basics.ComplexityLevelExtremeDescription": "Most fail, this one has.",
-    "codemetrics.basics.ComplexityLevelHighDescription": "This one has failed ...",
-    "codemetrics.basics.ComplexityLevelNormalDescription": "Starting to fail.",
-    "codemetrics.basics.ComplexityLevelLowDescription": "Readable...",
-    "codemetrics.basics.ComplexityLevelNormal": 8,
-    "codemetrics.basics.ComplexityLevelHigh": 12,
-    "material-icon-theme.showUpdateMessage": false,
-    "vsicons.dontShowNewVersionMessage": true,
-    "workbench.colorCustomizations": {
-        "editorIndentGuide.activeBackground": "#20b0f3",
-        "statusBar.background": "#000000",
-        "statusBar.noFolderBackground": "#000000",
-        "statusBar.debuggingBackground": "#000000"
+  "editor.fontSize": 14,
+  "editor.rulers": [150],
+  "editor.tabSize": 2,
+  "editor.cursorStyle": "block",
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": true,
+  "files.trimTrailingWhitespace": true,
+  "workbench.iconTheme": "vscode-icons",
+  "codemetrics.basics.CodeLensHiddenUnder": 5,
+  "csharp.format.enable": false,
+  "workbench.colorTheme": "SynthWave '84",
+  "codemetrics.basics.ComplexityLevelExtremeDescription": "Most fail, this one has.",
+  "codemetrics.basics.ComplexityLevelHighDescription": "This one has failed ...",
+  "codemetrics.basics.ComplexityLevelNormalDescription": "Starting to fail.",
+  "codemetrics.basics.ComplexityLevelLowDescription": "Readable...",
+  "codemetrics.basics.ComplexityLevelNormal": 8,
+  "codemetrics.basics.ComplexityLevelHigh": 12,
+  "material-icon-theme.showUpdateMessage": false,
+  "vsicons.dontShowNewVersionMessage": true,
+  "workbench.colorCustomizations": {
+    "editorIndentGuide.activeBackground": "#20b0f3",
+    "statusBar.background": "#000000",
+    "statusBar.noFolderBackground": "#000000",
+    "statusBar.debuggingBackground": "#000000"
+  },
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+  "gitlens.historyExplorer.enabled": true,
+  "auto-close-tag.SublimeText3Mode": true,
+  "auto-close-tag.enableAutoCloseSelfClosingTag": true,
+  "todohighlight.isCaseSensitive": true,
+  "todohighlight.keywords": [
+    "REVIEW:",
+    {
+      "text": "DEPRECATED:",
+      "color": "white",
+      "backgroundColor": "red",
+      "overviewRulerColor": "grey"
     },
-    "gitlens.advanced.messages": {
-        "suppressShowKeyBindingsNotice": true
-    },
-    "gitlens.historyExplorer.enabled": true,
-    "auto-close-tag.SublimeText3Mode": true,
-    "auto-close-tag.enableAutoCloseSelfClosingTag": true,
-    "todohighlight.isCaseSensitive": true,
-    "todohighlight.keywords": [
-        "REVIEW:",
-        {
-            "text": "DEPRECATED:",
-            "color": "white",
-            "backgroundColor": "red",
-            "overviewRulerColor": "grey"
-        },
-        {
-            "text": "STUB:",
-            "color": "#000",
-            "backgroundColor": "#7EC0EE"
-        }
-    ],
-    "materialTheme.fixIconsRunning": false,
-    "redhat.telemetry.enabled": true,
-    "csharp.semanticHighlighting.enabled": true,
-    "omnisharp.organizeImportsOnFormat": true,
-    "editor.suggestSelection": "first",
-    "rust-analyzer.checkOnSave.command": "clippy",
-    "rust-analyzer.cargo.allFeatures": true,
-    "[rust]": {
-        "editor.defaultFormatter": "matklad.rust-analyzer"
-    },
-    "editor.formatOnType": false,
-    "files.autoSave": "afterDelay",
-    "clipboard-manager.snippet.enabled": false,
-    "bracketPairColorizer.depreciation-notice": false,
-    "vim.useSystemClipboard": true,
-    "editor.lineNumbers": "relative",
-    "vim.statusBarColors.insert": "#5f0000",
-    "vim.statusBarColors.normal": "#000000",
-    "vim.statusBarColorControl": true,
-    "editor.inlineSuggest.enabled": true,
-    "vim.insertModeKeyBindings": [
-
-    ],
-    "github.copilot.enable": {
-        "*": true,
-        "plaintext": false,
-        "markdown": false,
-        "scminput": false
+    {
+      "text": "STUB:",
+      "color": "#000",
+      "backgroundColor": "#7EC0EE"
     }
+  ],
+  "materialTheme.fixIconsRunning": false,
+  "redhat.telemetry.enabled": true,
+  "csharp.semanticHighlighting.enabled": true,
+  "omnisharp.organizeImportsOnFormat": true,
+  "editor.suggestSelection": "first",
+  "rust-analyzer.checkOnSave.command": "clippy",
+  "rust-analyzer.cargo.allFeatures": true,
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  "editor.formatOnType": false,
+  "files.autoSave": "afterDelay",
+  "clipboard-manager.snippet.enabled": false,
+  "bracketPairColorizer.depreciation-notice": false,
+  "vim.useSystemClipboard": true,
+  "editor.lineNumbers": "relative",
+  "vim.statusBarColors.insert": "#5f0000",
+  "vim.statusBarColors.normal": "#000000",
+  "vim.statusBarColorControl": true,
+  "editor.inlineSuggest.enabled": true,
+  "vim.insertModeKeyBindings": [],
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  }
 }
