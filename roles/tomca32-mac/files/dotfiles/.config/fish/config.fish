@@ -4,6 +4,7 @@ set PATH $PATH $HOME/.cargo/bin # Rust Package Manager - Cargo
 set PATH $PATH $HOME/.rvm/bin # Add RVM to PATH for scripting
 set PATH $PATH $HOME/.local/bin
 set PATH $PATH /opt/homebrew/Cellar/x86_64-unknown-linux-gnu/11.2.0/bin
+set TERM xterm-256color
 
 alias l="ls -al"
 alias g="git"

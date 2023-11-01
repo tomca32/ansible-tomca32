@@ -70,7 +70,6 @@ visual_studio_code_extensions:
   - gazugafan.vscode-indent-on-paste
   - yatki.vscode-surround
   - fabiospampinato.vscode-todo-plus
-  - connorshea.vscode-ruby-test-adapter
   - bmalehorn.vscode-fish
   - be5invis.toml
   - vscjava.vscode-java-pack
@@ -95,7 +94,6 @@ visual_studio_code_extensions:
   - capaj.vscode-exports-autocomplete
   - christian-kohler.npm-intellisense
   - castwide.solargraph
-  - rebornix.Ruby
   - timonwong.shellcheck
   - ms-vscode-remote.vscode-remote-extensionpack
   - yy0931.save-as-root
