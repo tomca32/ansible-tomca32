@@ -30,6 +30,7 @@ homebrew_packages:
   - postgresql
   - pulumi
   - rsync
+  - ruby-build
   - sqlite
   - terraform
   - tldr

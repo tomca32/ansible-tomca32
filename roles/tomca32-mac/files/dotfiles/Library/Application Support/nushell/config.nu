@@ -767,6 +767,8 @@ alias intel = arch -x86_64
 
 # export ANDROID_HVPROTO=ddm # Android debugging
 
-echo "rvm default"1>/dev/null out+err> # Activate RVM
+echo "rvm default"1>/dev/null err>out # Activate RVM
 
 use ~/.cache/starship/init.nu
+$env.ASDF_NU_DIR = (brew --prefix asdf | str trim | into string | path join 'libexec')
+source /opt/homebrew/opt/asdf/libexec/asdf.nu
