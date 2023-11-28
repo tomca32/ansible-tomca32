@@ -59,6 +59,7 @@ homebrew_cask_packages:
   - sensiblesidebuttons
   - shiftit
   - obsidian
+  - rectangle
 
 visual_studio_code_extensions:
   - redhat.ansible
