@@ -1,9 +1,9 @@
 ---
-- name: Homebrew Installs
-  ansible.builtin.import_tasks: brew_installs.yml
+# - name: Homebrew Installs
+#   ansible.builtin.import_tasks: brew_installs.yml
 
-- name: Setup Shell
-  ansible.builtin.import_tasks: setup_shell.yml
+# - name: Setup Shell
+#   ansible.builtin.import_tasks: setup_shell.yml
 
 - name: Installs that don't require Homebrew
   ansible.builtin.import_tasks: non_brew_installs.yml
