@@ -1,0 +1,9 @@
+import = ["~/.config/alacritty/themes/themes/smoooooth.yaml"]
+
+[font.normal]
+family = "FiraCode Nerd Font"
+style = "Regular"
+
+[window]
+decorations = "none"
+option_as_alt = "Both"

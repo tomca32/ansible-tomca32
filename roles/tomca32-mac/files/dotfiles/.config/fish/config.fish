@@ -23,3 +23,7 @@ echo "rvm default"1>/dev/null 2>&1 # Activate RVM
 starship init fish | source
 
 source "$(brew --prefix asdf)"/libexec/asdf.fish
+
+# bun
+set --export BUN_INSTALL "$HOME/.bun"
+set --export PATH $BUN_INSTALL/bin $PATH

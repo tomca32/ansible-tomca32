@@ -35,7 +35,7 @@
     - .config/helix/languages.toml
     - .config/helix/config.toml
     - .config/zellij/config.kdl
-    - .config/alacritty/alacritty.yml
+    - .config/alacritty/alacritty.toml
     - .config/nvim/lua/config/autocmds.lua
     - .config/nvim/lua/config/keymaps.lua
     - .config/nvim/lua/config/lazy.lua
