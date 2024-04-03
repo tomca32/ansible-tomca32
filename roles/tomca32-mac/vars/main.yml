@@ -27,7 +27,7 @@ homebrew_packages:
   - neovim
   - node
   - nushell
-  - postgresql
+  - postgresql@14
   - pulumi
   - rsync
   - ruby-build
