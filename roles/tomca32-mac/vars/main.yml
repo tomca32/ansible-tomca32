@@ -10,6 +10,7 @@ homebrew_packages:
   - coreutils
   - dust
   - ffmpeg
+  - fzf
   - git
   - git-lfs
   - gmp
@@ -29,6 +30,7 @@ homebrew_packages:
   - nushell
   - postgresql@14
   - pulumi
+  - ripgrep
   - rsync
   - ruby-build
   - sqlite

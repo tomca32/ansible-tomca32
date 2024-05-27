@@ -16,6 +16,7 @@
     - .config/nvim/lua
     - .config/nvim/lua/tomca32
     - .config/nvim/lua/tomca32/core
+    - .config/nvim/lua/tomca32/plugins
     - .config/kitty
 
 - name: Clone Alacritty themes
@@ -37,9 +38,17 @@
     - .config/zellij/config.kdl
     - .config/alacritty/alacritty.toml
     - .config/nvim/init.lua
+    - .config/nvim/lua/tomca32/lazy.lua
+    - .config/nvim/lua/tomca32/post.lua
     - .config/nvim/lua/tomca32/core/options.lua
     - .config/nvim/lua/tomca32/core/keymaps.lua
     - .config/nvim/lua/tomca32/core/init.lua
+    - .config/nvim/lua/tomca32/core/which-groups.lua
+    - .config/nvim/lua/tomca32/plugins/init.lua
+    - .config/nvim/lua/tomca32/plugins/colorscheme.lua
+    - .config/nvim/lua/tomca32/plugins/nvim-tree.lua
+    - .config/nvim/lua/tomca32/plugins/which-key.lua
+    - .config/nvim/lua/tomca32/plugins/telescope.lua
     - .config/kitty/current-theme.conf
     - .config/kitty/kitty.conf
     - Library/Application Support/Code/User/settings.json
