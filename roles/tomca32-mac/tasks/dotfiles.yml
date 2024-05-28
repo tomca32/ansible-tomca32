@@ -49,6 +49,17 @@
     - .config/nvim/lua/tomca32/plugins/nvim-tree.lua
     - .config/nvim/lua/tomca32/plugins/which-key.lua
     - .config/nvim/lua/tomca32/plugins/telescope.lua
+    - .config/nvim/lua/tomca32/plugins/alpha.lua
+    - .config/nvim/lua/tomca32/plugins/auto-session.lua
+    - .config/nvim/lua/tomca32/plugins/bufferline.lua
+    - .config/nvim/lua/tomca32/plugins/lualine.lua
+    - .config/nvim/lua/tomca32/plugins/dressing.lua
+    - .config/nvim/lua/tomca32/plugins/vim-maximizer.lua
+    - .config/nvim/lua/tomca32/plugins/treesitter.lua
+    - .config/nvim/lua/tomca32/plugins/indent-blankline.lua
+    - .config/nvim/lua/tomca32/plugins/nvim-cmp.lua
+    - .config/nvim/lua/tomca32/plugins/autopairs.lua
+    - .config/nvim/lua/tomca32/plugins/comment.lua
     - .config/kitty/current-theme.conf
     - .config/kitty/kitty.conf
     - Library/Application Support/Code/User/settings.json
