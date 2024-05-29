@@ -64,6 +64,7 @@
     - .config/nvim/lua/tomca32/plugins/todo-comments.lua
     - .config/nvim/lua/tomca32/plugins/substitute.lua
     - .config/nvim/lua/tomca32/plugins/surround.lua
+    - .config/nvim/lua/tomca32/plugins/formatting.lua
     - .config/nvim/lua/tomca32/plugins/lsp/mason.lua
     - .config/nvim/lua/tomca32/plugins/lsp/lspconfig.lua
     - .config/kitty/current-theme.conf
