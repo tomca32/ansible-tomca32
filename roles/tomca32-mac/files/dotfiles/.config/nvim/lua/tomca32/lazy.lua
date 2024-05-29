@@ -12,4 +12,4 @@ end
 
 vim.opt.rtp:prepend(lazypath)
 
-require("lazy").setup("tomca32.plugins")
+require("lazy").setup({ { import = "tomca32.plugins" }, { import = "tomca32.plugins.lsp" } })
