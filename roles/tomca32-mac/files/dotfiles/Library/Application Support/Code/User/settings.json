@@ -5,7 +5,6 @@
   "vim.cursorStylePerMode.insert": "line-thin",
   "vim.cursorStylePerMode.normal": "block",
   "editor.formatOnPaste": false,
-  "editor.formatOnSave": true,
   "files.trimTrailingWhitespace": true,
   "workbench.iconTheme": "vscode-icons",
   "codemetrics.basics.CodeLensHiddenUnder": 5,
@@ -21,9 +20,9 @@
   "vsicons.dontShowNewVersionMessage": true,
   "workbench.colorCustomizations": {
     "editorIndentGuide.activeBackground": "#20b0f3",
-    "statusBar.background": "#5f0000",
-    "statusBar.noFolderBackground": "#5f0000",
-    "statusBar.debuggingBackground": "#5f0000",
+    "statusBar.background": "#000000",
+    "statusBar.noFolderBackground": "#000000",
+    "statusBar.debuggingBackground": "#000000",
     "statusBar.foreground": "#ffffff",
     "statusBar.debuggingForeground": "#ffffff"
   },
@@ -70,9 +69,23 @@
   "editor.inlineSuggest.enabled": true,
   "vim.insertModeKeyBindings": [],
   "github.copilot.enable": {
-    "*": true,
+    "*": false,
     "plaintext": false,
     "markdown": false,
     "scminput": false
-  }
+  },
+  "github.copilot.editor.enableAutoCompletions": true,
+  "editor.formatOnSave": true,
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["]", "d"],
+      "commands": ["editor.action.marker.nextInFiles"],
+      "silent": true
+    },
+    {
+      "before": ["[", "d"],
+      "commands": ["editor.action.marker.prevInFiles"],
+      "silent": true
+    }
+  ]
 }

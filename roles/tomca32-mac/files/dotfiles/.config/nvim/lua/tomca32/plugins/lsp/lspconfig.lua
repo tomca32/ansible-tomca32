@@ -66,6 +66,16 @@ return {
           capabilities = capabilities,
         })
       end,
+      ["rust_analyzer"] = function()
+        lspconfig["rust_analyzer"].setup({
+          on_attach = on_attach,
+          settings = {
+            procMacro = {
+              enable = true,
+            }
+          }
+        })
+      end,
       ["lua_ls"] = function()
         lspconfig["lua_ls"].setup({
           capabilities = capabilities,
