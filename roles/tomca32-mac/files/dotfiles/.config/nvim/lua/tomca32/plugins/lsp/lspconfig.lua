@@ -68,10 +68,28 @@ return {
       end,
       ["rust_analyzer"] = function()
         lspconfig["rust_analyzer"].setup({
+          capabilities = capabilities,
           on_attach = on_attach,
           settings = {
-            procMacro = {
-              enable = true,
+            ["rust-analyzer"] = {
+              cargo = {
+                allFeatures = true,
+              },
+              check = {
+                enable = true,
+                features = "all",
+                command = "clippy",
+              },
+              checkOnSave = true,
+              procMacro = {
+                enable = true,
+              },
+              diagnostic = {
+                enable = true,
+                experimental = {
+                  enable = true,
+                }
+              }
             }
           }
         })

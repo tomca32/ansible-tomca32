@@ -10,7 +10,7 @@ return {
 
     treesitter.setup({
       highlight = { enable = true },
-      indent = { enable = true },
+      indent = { enable = false },
       autotag = { enable = true },
       auto_install = true,
 
@@ -47,7 +47,6 @@ return {
         "toml",
         "xml",
       },
-
       incremental_selection = {
         enable = true,
         keymaps = {

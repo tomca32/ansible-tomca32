@@ -22,7 +22,6 @@ return {
 				"htmx",
 				"tsserver",
 				"jinja_lsp",
-				"jqls",
 				"kotlin_language_server",
 				"lua_ls",
 				"autotools_ls",
@@ -43,7 +42,6 @@ return {
 				"stylua",
 				"isort",
 				"black",
-				"rustfmt",
 			},
 		})
 	end,
