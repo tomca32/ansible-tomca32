@@ -10,6 +10,8 @@ homebrew_packages:
   - coreutils
   - dust
   - ffmpeg
+  - font-fira-code-nerd-font
+  - font-fira-mono-nerd-font
   - fzf
   - git
   - git-lfs
@@ -56,6 +58,7 @@ homebrew_cask_packages:
   - kitty
   - firefox
   - google-chrome
+  - neovide
   - sublime-text
   - visual-studio-code
   - sensiblesidebuttons
