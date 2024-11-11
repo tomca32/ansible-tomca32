@@ -50,7 +50,6 @@ homebrew_packages:
 
 homebrew_cask_packages:
   - alacritty
-  - alfred
   - dash
   - docker
   - iterm2
@@ -64,7 +63,7 @@ homebrew_cask_packages:
   - sensiblesidebuttons
   - shiftit
   - obsidian
-  - rectangle
+  - raycast
 
 visual_studio_code_extensions:
   - redhat.ansible
@@ -111,4 +110,3 @@ visual_studio_code_extensions:
   - vintharas.learn-vim
   - usernamehw.errorlens
   - cliffordfajardo.highlight-line-vscode
-...
