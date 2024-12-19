@@ -23,6 +23,7 @@ homebrew_packages:
   - jq
   - libftdi
   - libusb
+  - lazygit
   - midnight-commander
   - minicom
   - nginx
