@@ -7,6 +7,7 @@ homebrew_packages:
   - asdf
   - awscli
   - bash
+  - bottom
   - coreutils
   - dust
   - ffmpeg
@@ -15,6 +16,7 @@ homebrew_packages:
   - fzf
   - git
   - git-lfs
+  - gdu
   - gmp
   - gpg
   - gradle
