@@ -14,14 +14,32 @@
     - .config/alacritty/themes
     - .config/nvim
     - .config/nvim/lua
-    - .config/nvim/lua/tomca32
-    - .config/nvim/lua/tomca32/core
-    - .config/nvim/lua/tomca32/plugins
-    - .config/nvim/lua/tomca32/plugins/lsp
+    - .config/nvim/lua/plugins
     - .config/kitty
 
 - name: Clone Alacritty themes
   shell: cd ~/.config/alacritty/themes; git init; git remote add origin https://github.com/alacritty/alacritty-theme; git pull origin master
+
+- name: neovim plugins
+  file:
+    src: "{{ item }}"
+    path: "~/.config/nvim/lua/plugins/{{ item | regex_search('plugins/(.+)', '\\1') | first}}"
+    state: link
+  with_fileglob: "{{ ansible_env.PWD }}/roles/tomca32-mac/files/dotfiles/.config/nvim/lua/plugins/*"
+
+- name: neovim lua non-plugins
+  file:
+    src: "{{ item }}"
+    path: "~/.config/nvim/lua/{{ item | regex_search('lua/(.+)', '\\1') | first}}"
+    state: link
+  with_fileglob: "{{ ansible_env.PWD }}/roles/tomca32-mac/files/dotfiles/.config/nvim/lua/*"
+
+- name: neovim root files
+  file:
+    src: "{{ item }}"
+    path: "~/.config/nvim/{{ item | regex_search('nvim/(.+)', '\\1') | first}}"
+    state: link
+  with_fileglob: "{{ ansible_env.PWD }}/roles/tomca32-mac/files/dotfiles/.config/nvim/*"
 
 - name: dotfiles links in ~/
   file:
@@ -38,35 +56,6 @@
     - .config/helix/config.toml
     - .config/zellij/config.kdl
     - .config/alacritty/alacritty.toml
-    - .config/nvim/init.lua
-    - .config/nvim/lua/tomca32/lazy.lua
-    - .config/nvim/lua/tomca32/post.lua
-    - .config/nvim/lua/tomca32/core/options.lua
-    - .config/nvim/lua/tomca32/core/keymaps.lua
-    - .config/nvim/lua/tomca32/core/init.lua
-    - .config/nvim/lua/tomca32/core/which-groups.lua
-    - .config/nvim/lua/tomca32/plugins/init.lua
-    - .config/nvim/lua/tomca32/plugins/colorscheme.lua
-    - .config/nvim/lua/tomca32/plugins/nvim-tree.lua
-    - .config/nvim/lua/tomca32/plugins/which-key.lua
-    - .config/nvim/lua/tomca32/plugins/telescope.lua
-    - .config/nvim/lua/tomca32/plugins/alpha.lua
-    - .config/nvim/lua/tomca32/plugins/auto-session.lua
-    - .config/nvim/lua/tomca32/plugins/bufferline.lua
-    - .config/nvim/lua/tomca32/plugins/lualine.lua
-    - .config/nvim/lua/tomca32/plugins/dressing.lua
-    - .config/nvim/lua/tomca32/plugins/vim-maximizer.lua
-    - .config/nvim/lua/tomca32/plugins/treesitter.lua
-    - .config/nvim/lua/tomca32/plugins/indent-blankline.lua
-    - .config/nvim/lua/tomca32/plugins/nvim-cmp.lua
-    - .config/nvim/lua/tomca32/plugins/autopairs.lua
-    - .config/nvim/lua/tomca32/plugins/comment.lua
-    - .config/nvim/lua/tomca32/plugins/todo-comments.lua
-    - .config/nvim/lua/tomca32/plugins/substitute.lua
-    - .config/nvim/lua/tomca32/plugins/surround.lua
-    - .config/nvim/lua/tomca32/plugins/formatting.lua
-    - .config/nvim/lua/tomca32/plugins/lsp/mason.lua
-    - .config/nvim/lua/tomca32/plugins/lsp/lspconfig.lua
     - .config/kitty/current-theme.conf
     - .config/kitty/kitty.conf
     - Library/Application Support/Code/User/settings.json
