@@ -9,7 +9,7 @@ return {
          fm.setup {
             glow = true,
             theme = 'fluoromachine',
-            transparent = true,
+            transparent = false,
          }
 
          vim.cmd.colorscheme 'fluoromachine'
