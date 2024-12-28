@@ -17,6 +17,7 @@ homebrew_packages:
   - git
   - git-lfs
   - gdu
+  - ghostty
   - gmp
   - gpg
   - gradle
