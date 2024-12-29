@@ -24,6 +24,7 @@ homebrew_packages:
   - helix
   - imagemagick
   - jq
+  - lazygit
   - libftdi
   - libusb
   - lazygit
