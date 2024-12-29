@@ -11,4 +11,5 @@ return {
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.test.neotest" },
   { import = "astrocommunity.scrolling.satellite-nvim" },
+  { import = "astrocommunity.motion.leap-nvim" },
 }
