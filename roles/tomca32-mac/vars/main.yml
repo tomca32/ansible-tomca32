@@ -45,7 +45,6 @@ homebrew_packages:
   - tldr
   - wget
   - yarn
-  - youtube-dl
   - fish
   - ranger
   - shellcheck
@@ -66,7 +65,6 @@ homebrew_cask_packages:
   - sublime-text
   - visual-studio-code
   - sensiblesidebuttons
-  - shiftit
   - obsidian
   - raycast
 
