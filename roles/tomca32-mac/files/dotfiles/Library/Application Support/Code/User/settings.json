@@ -1,6 +1,8 @@
 {
   "editor.fontSize": 14,
-  "editor.rulers": [150],
+  "editor.rulers": [
+    150
+  ],
   "editor.tabSize": 2,
   "vim.cursorStylePerMode.insert": "line-thin",
   "vim.cursorStylePerMode.normal": "block",
@@ -78,13 +80,23 @@
   "editor.formatOnSave": true,
   "vim.normalModeKeyBindingsNonRecursive": [
     {
-      "before": ["]", "d"],
-      "commands": ["editor.action.marker.nextInFiles"],
+      "before": [
+        "]",
+        "d"
+      ],
+      "commands": [
+        "editor.action.marker.nextInFiles"
+      ],
       "silent": true
     },
     {
-      "before": ["[", "d"],
-      "commands": ["editor.action.marker.prevInFiles"],
+      "before": [
+        "[",
+        "d"
+      ],
+      "commands": [
+        "editor.action.marker.prevInFiles"
+      ],
       "silent": true
     }
   ]
