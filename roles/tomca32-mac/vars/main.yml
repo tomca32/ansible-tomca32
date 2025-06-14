@@ -54,6 +54,7 @@ homebrew_packages:
 
 homebrew_cask_packages:
   - alacritty
+  - brainfm
   - dash
   - docker
   - iterm2
