@@ -60,6 +60,7 @@ homebrew_cask_packages:
   - iterm2
   - jetbrains-toolbox
   - kitty
+  - keybase
   - firefox
   - google-chrome
   - neovide
