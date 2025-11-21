@@ -6,6 +6,8 @@
 return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.pack.lua" },
+  { import = "astrocommunity.pack.rust" },
+  { import = "astrocommunity.git.blame-nvim" },
   { import = "astrocommunity.pack.typescript-all-in-one" },
   { import = "astrocommunity.test.neotest" },
   { import = "astrocommunity.scrolling.satellite-nvim" },
