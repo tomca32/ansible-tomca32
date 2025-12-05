@@ -44,7 +44,7 @@ return {
     -- customize language server configuration options passed to `lspconfig`
     ---@diagnostic disable: missing-fields
     config = {
-      -- clangd = { capabilities = { offsetEncoding = "utf-8" } },
+      clangd = { capabilities = { offsetEncoding = "utf-8" } },
       rust_analyzer = {
         settings = {
           ["rust-analyzer"] = {
@@ -52,7 +52,7 @@ return {
               extraEnv = { CARGO_PROFILE_RUST_ANALYZER_INHERITS = "dev" },
               extraArgs = { "--profile", "rust-analyzer" },
               features = "all",
-              -- target = "x86_64-unknown-linux-gnu",
+              target = "x86_64-unknown-linux-gnu",
               -- target = "arm-unknown-linux-musleabihf",
             },
           },

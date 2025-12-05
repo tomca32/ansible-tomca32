@@ -1,7 +1,7 @@
 return {
   {
-    'mrcjkb/rustaceanvim', -- add lsp plugin
-    version = '^5',
+    "mrcjkb/rustaceanvim", -- add lsp plugin
+    version = "^5",
     lazy = false, -- This plugin is already lazy
     opts = function(_, opts)
       local astrolsp_avail, astrolsp = pcall(require, "astrolsp")
@@ -24,7 +24,6 @@ return {
     end,
     -- configure `rustaceanvim` by setting the `vim.g.rustaceanvim` variable
     config = function(_, opts) vim.g.rustaceanvim = require("astrocore").extend_tbl(opts, vim.g.rustaceanvim) end,
-
   },
   {
     "AstroNvim/astrolsp",
@@ -36,7 +35,7 @@ return {
   {
     "WhoIsSethDaniel/mason-tool-installer.nvim",
     opts = {
-      ensure_installed = { "rust-analyzer" }, -- automatically install lsp
+      -- ensure_installed = { "rust-analyzer" }, -- automatically install lsp
     },
   },
 }
