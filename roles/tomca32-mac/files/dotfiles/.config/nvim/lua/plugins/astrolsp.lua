@@ -45,19 +45,19 @@ return {
     ---@diagnostic disable: missing-fields
     config = {
       clangd = { capabilities = { offsetEncoding = "utf-8" } },
-      rust_analyzer = {
-        settings = {
-          ["rust-analyzer"] = {
-            cargo = {
-              extraEnv = { CARGO_PROFILE_RUST_ANALYZER_INHERITS = "dev" },
-              extraArgs = { "--profile", "rust-analyzer" },
-              features = "all",
-              target = "x86_64-unknown-linux-gnu",
-              -- target = "arm-unknown-linux-musleabihf",
-            },
-          },
-        },
-      },
+      -- rust_analyzer = {
+      --   settings = {
+      --     ["rust-analyzer"] = {
+      --       cargo = {
+      --         extraEnv = { CARGO_PROFILE_RUST_ANALYZER_INHERITS = "dev" },
+      --         extraArgs = { "--profile", "rust-analyzer" },
+      --         features = "all",
+      --         target = "x86_64-unknown-linux-gnu",
+      --         -- target = "arm-unknown-linux-musleabihf",
+      --       },
+      --     },
+      --   },
+      -- },
     },
     -- customize how language servers are attached
     handlers = {
