@@ -2,6 +2,7 @@
 homebrew_taps:
   - ArmMbed/homebrew-formulae
   - messense/macos-cross-toolchains
+  - ankitpokhrel/jira-cli
 
 homebrew_packages:
   - asdf
@@ -50,6 +51,7 @@ homebrew_packages:
   - starship
   - zellij
   - "x86_64-unknown-linux-gnu"
+  - jira-cli
 
 homebrew_cask_packages:
   - brainfm
