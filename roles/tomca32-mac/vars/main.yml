@@ -35,14 +35,13 @@ homebrew_packages:
   - neovim
   - node
   - nushell
-  - postgresql@14
+  - postgresql@18
   - pulumi
   - ripgrep
   - rsync
   - ruby-build
   - sqlite
-  - terraform
-  - tldr
+  - tlrc
   - wget
   - yarn
   - fish
