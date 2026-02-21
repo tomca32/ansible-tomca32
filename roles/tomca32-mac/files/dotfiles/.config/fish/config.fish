@@ -1,4 +1,4 @@
-set PATH /opt/homebrew/bin /usr/local/bin /usr/bin /bin /usr/sbin /sbin /Users/tomislavpesut/bin
+set PATH /opt/homebrew/sbin /opt/homebrew/bin /usr/local/bin /usr/bin /bin /usr/sbin /sbin /Users/tomislavpesut/bin
 set PATH $PATH /Applications/Visual Studio Code.app/Contents/Resources/app/bin # Add VS Code to Path
 set PATH $PATH $HOME/.cargo/bin # Rust Package Manager - Cargo
 set PATH $PATH $HOME/.rvm/bin # Add RVM to PATH for scripting
