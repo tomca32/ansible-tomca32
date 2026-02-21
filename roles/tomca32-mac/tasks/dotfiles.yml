@@ -69,6 +69,7 @@
     - .config/kitty/kitty.conf
     - Library/Application Support/Code/User/settings.json
     - Library/Application Support/Code/User/keybindings.json
+    - Library/Application Support/Code/lazygit/config.yml
     # - Library/Application Support/nushell/config.nu
     # - Library/Application Support/nushell/env.nu
 
