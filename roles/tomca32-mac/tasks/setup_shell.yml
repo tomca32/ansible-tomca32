@@ -9,30 +9,15 @@
 
 - name: Add fish to /etc/shells
   become: true
-  become_user: root
   ansible.builtin.lineinfile:
     path: /etc/shells
     state: present
     line: "{{ fish_path }}"
 
 - name: Change Shell to fish
-  ansible.builtin.shell: chsh -s $(which fish) $(whoami)
+  user:
+    name: "{{ ansible_user }}"
+    shell: "{{ fish_path }}"
 
 - name: Install Fisher
   ansible.builtin.shell: fish --command "curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher"
-
-- name: Get Nushell Path
-  ansible.builtin.shell: which nu
-  register: which_nu
-
-- name: Save Nushell path to variable
-  ansible.builtin.set_fact:
-    nu_path: "{{ which_nu.stdout }}"
-
-- name: Add Nushell to /etc/shells
-  become: true
-  become_user: root
-  ansible.builtin.lineinfile:
-    path: /etc/shells
-    state: present
-    line: "{{ nu_path }}"
