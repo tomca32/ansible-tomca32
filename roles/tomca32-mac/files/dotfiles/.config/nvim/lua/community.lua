@@ -13,5 +13,6 @@ return {
   { import = "astrocommunity.scrolling.satellite-nvim" },
   { import = "astrocommunity.motion.leap-nvim" },
   { import = "astrocommunity.game.leetcode-nvim" },
-  -- import/override with your plugins folder
+  { import = "astrocommunity.terminal-integration.floaterm" },
+  { import = "astrocommunity.split-and-window.neominimap-nvim" },
 }
